@@ -1,3 +1,3 @@
-# Chat Application Python
+# Python Chat Application
 
 
