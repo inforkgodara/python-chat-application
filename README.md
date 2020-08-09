@@ -13,9 +13,8 @@ In order to run the python script, your system must have the following programs/
 * the server will establish connection between the server and client through socket.
 * now from the server or client text can be sent.
 
-## Code
+## Server Code
 ```
-# server.py
 # Program to accept client request
 # Author @inforkgodara
 
@@ -43,8 +42,9 @@ while 1:
     incoming_message = incoming_message.decode()
     print(' Client : ', incoming_message)
     print()
-
-# client.py
+```
+## Client Code
+```
 # Program to send request to the server
 # Author @inforkgodara
 
